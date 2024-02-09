@@ -1,0 +1,189 @@
+.first{
+    position: relative;
+    margin-bottom: 467px;
+}
+.firs__container{
+    padding-top: 85px;
+}
+.first__titlle{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    color: var(--darck-color);
+    max-width: 50%;
+    margin-bottom: 16px;
+}
+.first__descr{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--black-color);
+    max-width: 40%;
+    margin-bottom: 39px;
+}
+.first__btn{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: var(--fuchsia-color);
+    padding: 16px 25px;
+    border: 2px solid var(--fuchsia-color);
+    border-radius: 8px;
+    background: #fbe4ee;
+}
+.first__btn:hover, .first__btn:active, .first__btn:focus{
+    color: var(--white-color);
+    background: #ffb1d3;
+}
+
+.first__circle-wrapper{
+    position: absolute;
+    top: -69px;
+    right: 55px;
+    padding: 235px;
+    border-radius: 100%;
+    border: none;
+    fill: rgba(248, 255, 246, 0.12);
+    backdrop-filter: blur(12px);
+}
+.circle__main-item{
+    position: relative;
+    height: 177px;
+    width: 177px;
+    border-radius: 100%;
+    background-color: var(--green-color);
+    align-items: center;
+}
+.main-item{
+    position: absolute;
+    top: 27.5%;
+    left: 9.5%;
+}
+.circle__secondary-item{
+    position: absolute;
+    border-radius: 100%;
+    background-color: var(--white-color);
+    padding: 15px;
+    border: 8px solid rgba(27, 17, 8, 0.06);
+    transition: 0.3s all;
+    
+}
+.secondary-item{
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+    
+}
+.item--1{
+    top: -92%;
+    left: 21%;
+}
+.item--1:hover ~ .circle-arrow, .item--1:focus ~ .circle-arrow, .item--1:active ~ .circle-arrow{
+    display: block;
+    top: -35%;
+    left: 40%;
+    transform: rotate(180deg);
+}
+
+.item--1:hover, .item--1:focus, .item--1:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+
+.item--2{
+    top: -28%;
+    right: -86%;
+}
+.item--2:hover ~ .circle-arrow, .item--2:focus ~ .circle-arrow, .item--2:active ~ .circle-arrow{
+    display: block;
+    top: 18%;
+    left: 110%;
+    transform: rotate(245deg);
+}
+
+.item--2:hover, .item--2:focus, .item--2:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+.item--3{
+    top: 76%;
+    right: -86%;
+}
+.item--3:hover ~ .circle-arrow, .item--3:focus ~ .circle-arrow, .item--3:active ~ .circle-arrow{
+    display: block;
+    top: 75%;
+    left: 113%;
+    transform: rotate(-63deg);
+}
+
+.item--3:hover, .item--3:focus, .item--3:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+.item--4{
+    top: 143%;
+    right: 19%;
+}
+.item--4:hover ~ .circle-arrow, .item--4:focus ~ .circle-arrow, .item--4:active ~ .circle-arrow{
+    display: block;
+    top: 117%;
+    left: 49%;
+    transform: rotate(0);
+}
+
+.item--4:hover, .item--4:focus, .item--4:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+.item--5{
+    top: 77%;
+    left: -96%
+}
+.item--5:hover ~ .circle-arrow, .item--5:focus ~ .circle-arrow, .item--5:active ~ .circle-arrow{
+    display: block;
+    top: 67%;
+    left: -31%;
+    transform: rotate(63deg);
+}
+
+.item--5:hover, .item--5:focus, .item--5:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+.item--6{
+    top: -27%;
+    left: -96%
+}
+.item--6:hover ~ .circle-arrow, .item--6:focus ~ .circle-arrow, .item--6:active ~ .circle-arrow{
+    display: block;
+    top: 8%;
+    left: -31%;
+    transform: rotate(115deg);
+}
+
+.item--6:hover, .item--6:focus, .item--6:active{
+    border: 0;
+    background: none;
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+.circle-arrow{
+    background-image: url(../../img/svg/first-icon-btn.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 35px;
+    width: 25px;
+    display: none;
+}

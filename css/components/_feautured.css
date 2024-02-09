@@ -1,0 +1,15 @@
+.feautured{
+    margin-bottom: 119px;
+}
+.feautured-title{
+   text-align: center;
+   margin-bottom: 90px;
+}
+.feautured__logo{
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 42px;
+}
+.feautured__logo-item-centr{
+    margin-right: 20px;
+}

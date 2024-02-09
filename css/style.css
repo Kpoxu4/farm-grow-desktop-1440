@@ -1,0 +1,25 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/*components imports*/
+@import "./components/_header.css";
+@import "./components/_first.css";
+@import "./components/_site-bg__video.css";
+@import "./components/_graph__info.css";
+@import "./components/_ecosysteem.css";
+@import "./components/_informatiom.css";
+@import "./components/_farm.css";
+@import "./components/_pools.css";
+@import "./components/_feautured.css";
+@import "./components/_auditeed.css";
+@import "./components/_offer-cards.css";
+@import "./components/_bay.css";
+@import "./components/_footer.css";
+
+
+
+

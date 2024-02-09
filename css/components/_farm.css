@@ -1,0 +1,108 @@
+.farm{
+    position: relative;
+    margin-bottom: 216px;
+}
+.farm-bg{
+    position: absolute;
+    background: url(../../img/svg/farm-bg.svg) no-repeat left;
+    top: -67%;
+    width: 100%;
+    height: 100%;
+}
+
+.farm-title{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.farm__field{
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 64px 24px 24px 64px;
+    box-shadow: 0 4px 28px 0 rgba(27, 17, 8, 0.06);
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+.farm__field-pics{
+    position: relative;
+    margin-left: 14px;
+}
+.gren-icon{
+    background-color: var(--green-color);
+    border-radius: 100%;
+    padding: 5px 9px;
+    border: none;
+    width: 62px;
+    height: 62px;
+    
+}
+.second-icon{
+    position: absolute;
+    left: 60%;
+    top: 0;
+    z-index: -1;
+}
+.farm__field-desc{
+    padding-right: 12px;
+    padding-left: 44px;
+}
+.last-desc{
+    padding-left: 58px;
+}
+.farm__field-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--darck-color);
+    padding-bottom: 10px;
+}
+.farm__field-text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--gavrgoyle-color);
+    padding-bottom: 4px;
+}
+.farm__field-line{
+    width: 1px;
+    height: 76px;
+    border: 1px dashed var(--green-color);
+    margin-right: 34px;
+}
+.farm__field-values{
+    margin-right: 142px;
+}
+.values-title{
+    font-weight: 600;
+    font-size: 16px;
+    color:var(--gavrgoyle-color);
+    padding-bottom: 10px;
+}
+.value{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--green-color);
+    
+}
+.farm__field-btn{
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: var(--white-color);
+    border-radius: 8px;
+    background: linear-gradient(130deg, #30c917 0%, #279a13 100%);
+    margin-right: 20px;
+   
+}
+.farm__field-btn:focus,.farm__field-btn:hover{
+    color: var(--green-color);
+    background: rgba(27, 17, 8, 0.12);
+    border: 2px solid  var(--green-color);
+    padding: 8px 10px;
+}
+.farm__field-btn:active{
+    color: var(--white-color);
+    background: rgba(191, 188, 184, 0.44);
+    border: none;
+    padding: 10px 12px
+}
